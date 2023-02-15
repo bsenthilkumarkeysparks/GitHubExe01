@@ -1,0 +1,81 @@
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+.services .member .service-img img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    object-fit: contain;
+}
+  
+.services .member .service-info {
+    padding: 25px 15px;
+    background: #f3f9fd;
+    
+}
+  
+.services .member .service-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #124265;
+}
+  
+.services .member .service-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+  
+.services .member .service-info p {
+    font-style: italic;
+    font-size: 14px;
+    color: #777777;
+}
+  
+.services .member:hover .social {
+    opacity: 1;
+}
+
+.services .icon-box:hover {
+  border: 4px solid #2487ce;
+}
+
+.services .icon-box {
+  border-radius: 8px;
+  border: 4px solid #fff;
+  z-index: 1;
+}
+
+.services .icon-box h4{
+  color:  #124265;
+}
+
+.services .icon-box p{  
+  color:  #124265;
+}
+
+.services .testimonials-carousel,
+.services .testimonials-slider {
+  overflow: hidden;
+}
+
+.services .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.services .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #2487ce;
+}
+
+.services .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #2487ce;
+}
